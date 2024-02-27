@@ -187,4 +187,107 @@ a {
 
 }
 
+.book-title .categories{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.categoires-images img{
+    width: 100%;
+}
+.categoires-images p{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.categoires-images{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 8%;
+}
+
+.book-trending-section{
+    width: 70vw;
+    margin: 40px 0;
+}
+
+.trending-header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.trending-header h2{
+    font-size: 16px;
+}
+.trending-header a{
+    font-size: 13px;
+}
+
+
+.trending-products{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 280px;
+    position: relative;
+    overflow-x: auto;
+}
+
+.trending-books{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.products-info{
+    margin: 10px 0;
+}
+
+.products-info .books-image img{
+    border: none;
+    border-radius: 10px;
+}
+
+.product-upper-info{
+    margin: 10px 0;
+}
+.product-upper-info p{
+    margin: 10px 0;
+    font-size: 14px;
+}
+.price{
+    color: rgb(129, 4, 4);
+    font-weight: 600;
+}
+
+.product-shop{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.product-shop button{
+    border: none;
+    background-color: #0aac04;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.product-shop button:hover{
+    background-color: #0aac04bb;
+    transform: translateY(-2px);
+}
+
+
+
 
