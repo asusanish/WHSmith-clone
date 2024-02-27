@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) ease;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header-container {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(65, 65, 206);
+}
+
+.header-container .content{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.header-container .logo-header-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.searchbar {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+}
+.searchbar input{
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.input-field{
+    border: none;
+}
+.searchbar button {
+    border: none;
+    background-color: #fff;
+}
+.searchbar i{
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    /* margin-left: 40px; */
+    cursor: pointer;
+}
+
+.header-container .logo-header-container .logo img{
+    width: 40%;
+}
+
+.account-header-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.account-header-container .user-account{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user a{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user a p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.stores a{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.stores a p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.account-header-container .user-account i{
+    font-size: 40px;
+}
+
+.shop-cart a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop-cart a p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.shop-cart i{
+    font-size: 40px;
+}
+
+.header-keywords{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(97, 97, 253);
+    display: flex;
+    overflow: hidden;
+}
+.header-keywords .keywordcontent{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-keywords .keywordcontent .keywords a{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.book-section{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.book-section .book-header{
+    width: 80vw;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-header h2{
+    font-size: 30px;
+}
+.book-header a{
+    padding: 10px 50px;
+    background-color: #0d1366;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+
+.book-content{
+    width: 70vw;
+    margin: 25px auto;
+}
+
+.book-content .image-header img{
+    width: 100%;
+
+}
+
+
